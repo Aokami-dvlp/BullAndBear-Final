@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+    <head>
+        <title>Bull & Bear</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/api.css' %}">
+    </head>
+    <body>
+        <div class="page-header">
+            <a href="/"><img src="https://i.ibb.co/j6QcPKj/Toro-senza-sfondo.png" alt="Toro-senza-sfondo" width="120px" height="120px" border="0" align="left">
+            <img src="https://i.ibb.co/hsShtK5/Orso-senza-sfondo.png" alt="Orso-senza-sfondo" width="120px" height="120px" border="0" align="right">
+            <h1>Bull & Bear</h1>
+            <p class="sub">Cryptomarket's Predictions Bulletin Board</p></a>
+        </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
